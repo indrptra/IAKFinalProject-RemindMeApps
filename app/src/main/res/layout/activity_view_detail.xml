@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="digital.iakfinalproject_remindmeapps.ViewDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/tv_tittle"
+        android:text="Tittle Here"/>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_tittle"
+        android:id="@+id/separator"
+        android:background="#595959"
+        android:layout_width = "fill_parent"
+        android:layout_height="5dip"
+        android:layout_centerVertical ="true"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/tv_content"
+        android:text="Content Here"/>
+</RelativeLayout>
